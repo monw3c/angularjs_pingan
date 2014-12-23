@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="css/jrxq.css" type="text/css" />
+<div class="content-header">
+    <div class="ch-wrap cl">
+        <img ng-src="{{lc.financial_icon}}" width="50" height="50">
+        <div>
+          <p class="newsTitle">
+            {{lc.financial_name}}
+          </p>
+          <p>
+            <span style="color:#F87352;">{{lc.subscribe_min}}</span> 起购
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="content" style="margin-top: 130px;">
+      <div class="sy cl">
+        <p>
+          <b>预期年化收益率(%)</b><b>{{lc.expected_profit}}</b>
+        </p>
+        <p>
+          <b>建议持有期限(天)</b><b>{{lc.alloted_time}}</b>
+        </p>
+      </div>
+      <ul class="introduce">
+        <li class="cl"><b>产品币种</b><b>{{lc.currency_type}}</b></li>
+        <li class="cl"><b>风险评级</b><b>{{lc.risk_level}}</b></li>
+        <li class="cl"><b>销售期</b><b>{{lc.sales_time}}</b></li>
+        <li class="cl"><b>理财计息期</b><b>{{lc.interest_time}}</b></li>
+        <li class="cl"><b>认购上限</b><b>{{lc.subscribe_max}}</b></li>
+        <li class="cl"><b>递增金额</b><b>{{lc.increase_amount}}</b></li>
+        <li class="cl"><b>产品类型</b><b>{{lc.financial_type}}</b></li>
+        <li class="cl"><b>收益率附加说明</b><b>{{lc.profit_remark}}</b></li>
+        <li class="cl"><b>剩余额度</b><b>{{lc.remain_amount}}</b></li>
+        <li class="cl">
+          <a ng-href="{{lc.financial_remark}}">
+          <p>
+            产品说明书、协议
+          </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <p class="btn btn-primary buy">购买</p>
+    </div>
+

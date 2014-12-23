@@ -29,6 +29,14 @@ define(['app'], function(app){
                 templateUrl: 'js/views/jr/list.html',
                 controller: 'jrListCtrl'
               })
+              .when('/lcxq', {
+                templateUrl: 'js/views/jr/lcxq.html',
+                controller: 'lcxqCtrl'
+              })
+              .when('/jjxq', {
+                templateUrl: 'js/views/jr/jjxq.html',
+                controller: 'jjxqCtrl'
+              })
               .otherwise({ redirectTo: '/' });
 
               //$locationProvider.html5Mode(true).hashPrefix('!');

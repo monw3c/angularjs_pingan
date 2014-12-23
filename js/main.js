@@ -9,6 +9,7 @@ require.config({
       "fastclick" : "libs/fastclick",
       "blocksit" : "libs/blocksit",
       "idTabs" : "libs/idTabs",
+      "stickUp" : "libs/stickUp",
       "angular" : "libs/angular.min",
       "angular-route" : "libs/angular-route.min",
       "angular-sanitize" : "libs/angular-sanitize.min",
@@ -20,6 +21,7 @@ require.config({
       "backButton" : "directives/backButton",
       "fliterBox" : "directives/fliterBox",
       "jrTab" : "directives/jrTab",
+      "fixBar" : "directives/fixBar",
       
       "geoFactory" : "services/geoFactory",
 
@@ -31,6 +33,8 @@ require.config({
       "shListCtrl" : "controllers/shListCtrl",
       "listimgCtrl" : "controllers/listimgCtrl",
       "jrListCtrl" : "controllers/jrListCtrl",
+      "lcxqCtrl" : "controllers/lcxqCtrl",
+      "jjxqCtrl" : "controllers/jjxqCtrl",
 
       "route" : "routes/appRoute",
     },
@@ -53,12 +57,16 @@ require.config({
        'idTabs': {
           deps: ['jquery'],
           exports: 'idTabs'
+       },
+       'stickUp': {
+          deps: ['jquery'],
+          exports: 'stickUp'
        }
     }
 });
 
 
-require(['jquery','angular','angular-route','angular-sanitize','app','loadingInterceptor','route','telBox','fav','geo','geoFactory','wdListCtrl','wdxqCtrl','shxqCtrl','shListCtrl','listimgCtrl','jrListCtrl','blocksit','backButton','fliterBox','idTabs','jrTab'],function ($,angular){
+require(['jquery','angular','angular-route','angular-sanitize','app','loadingInterceptor','route','telBox','fav','geo','geoFactory','wdListCtrl','wdxqCtrl','shxqCtrl','shListCtrl','listimgCtrl','jrListCtrl','lcxqCtrl','jjxqCtrl','blocksit','backButton','fliterBox','idTabs','jrTab','stickUp','fixBar'],function ($,angular){
 
       $(function () {
 

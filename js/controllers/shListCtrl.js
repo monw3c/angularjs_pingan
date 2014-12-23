@@ -1,6 +1,6 @@
-define(['app','geoFactory'], function(app,geoFactory){
+define(['app'], function(app){
       
-   return app.controller('shListCtrl', ['$scope','$rootScope','$http','geoFactory', function ($scope,$rootScope,$http,geoFactory) {
+   return app.controller('shListCtrl', ['$scope','$rootScope','$http', function ($scope,$rootScope,$http) {
 
             $rootScope.headTitle = $rootScope.title = "商户列表";
             $rootScope.favBol = false;

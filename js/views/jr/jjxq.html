@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="css/jjxq.css" type="text/css" />
+<div class="content-header">
+      <div class="ch-wrap cl">
+        <div>
+          <p class="newsTitle" id="fund_name">{{jj.fund_name}}</p>
+          <p id="register_agency">{{jj.register_agency}}</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="content">
+      <ul class="introduce">
+        <li class="cl">
+          <b>基金代码</b>
+          <b id="fund_code">{{jj.fund_code}}</b>
+        </li>
+        <li class="cl">
+          <b>基金类型</b>
+          <b id="fund_type">{{jj.fund_type}}</b>
+        </li>
+        <li class="cl">
+          <b>产品币种</b>
+          <b id="currency_type">{{jj.currency_type}}</b>
+        </li>
+        <li class="cl">
+          <b>登记机构</b>
+          <b id="fund_company">{{jj.fund_company}}</b>
+        </li>
+        <li class="cl">
+          <b>内部风险评级</b>
+          <b id="risk_level">{{jj.risk_level}}</b>
+        </li>
+      </ul>
+
+    </div>
+
+    <div class="list-jz">
+      <div class="navbar-wrapper jz" fix-bar><b class="jz-le">日期</b><b class="jz-ri">净值</b></div>
+     <ul id="jz">
+      <li ng-repeat="item in jj.net_values.items">
+        <b class="jz-rq">{{item.net_time}}</b>
+        <b class="jz-jz">{{item.net_value}}</b>
+      </li>
+     </ul>
+
+    </div>
+
+
