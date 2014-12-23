@@ -1,0 +1,69 @@
+<link rel="stylesheet" href="css/jrcs.css" type="text/css" />
+<div id="tabs-list" class='tabs-list' jr-tab>
+      <ul class="tab"> 
+        <li class="tab1"><a href="#list-tab1" class="selected"><span>理财产品</span><b></b></a></li> 
+       <li class="tab2"><a href="#list-tab2"><span>基金超市</span><b></b></a></li>
+      </ul>
+      <div id="list-tab1" >
+        <ul class="list-ul">
+           <li ng-repeat="financial in financials">
+            <a href="#/lc">
+            <div class="content-header">
+              <div class="ch-wrap cl">
+                <img ng-src="{{financial.financial_icon}}" width="50" height="50">
+                <div>
+                  <p class="newsTitle">{{financial.financial_name}}</p>
+                  <p><span style="color:#F87352;">{{financial.subscribe}} </span>起购</p>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <div class="sy cl">
+                <p>
+                  <b>{{financial.profit[0].value}}</b>
+                  <b>{{financial.profit[0].key}}</b>
+                </p>
+                <p>
+                  <b>{{financial.alloted[0].value}}</b>
+                  <b>{{financial.alloted[0].key}}</b>
+                </p>
+              </div>
+            </div>
+            </a>
+            <hr>
+          </li>
+        </ul>
+        <p class="get-more lc" ng-click="getMore()">加载更多</p>
+      </div>
+          
+      <div id="list-tab2" style="display: none;">
+        <ul class="list-ul">
+          <li ng-repeat="fund in funds">
+            <a href="#/jj">
+              <div class="content-header">
+                <div class="ch-wrap cl">
+                  <div>
+                    <p class="newsTitle jjTitle">
+                      <span>{{fund.fund_name}}</span><b class="btn jjbutton">{{fund.fund_type}}</b>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <div class="sy cl">
+                  <p>
+                    <b>{{fund.net_value}}</b><b>预期年化收益率(%)</b>
+                  </p>
+                  <p>
+                    <b>{{fund.risk_level}}</b><b>风险评级</b>
+                  </p>
+                </div>
+              </div>
+            </a>
+            <hr>
+          </li>
+        </ul>
+        <p class="get-more jj" ng-click="getMore()">加载更多</p>
+      </div>
+    </div>
+

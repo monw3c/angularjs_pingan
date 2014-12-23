@@ -1,0 +1,76 @@
+{
+    "fund_id": "1",
+    "fund_name": "工银创新动力股票",
+    "fund_type": "股票型",
+    "net_value": "1.0000",
+    "risk_level": "高风险",
+    "fund_code": "000893",
+    "fund_company": "工银瑞信基金",
+    "register_agency": "工银瑞信基金管理有限公司",
+    "currency_type": "人民币",
+    "net_values": {
+        "items": [
+            {
+                "net_time": "2014-11-25",
+                "net_value": "1.0140"
+            },
+            {
+                "net_time": "2014-11-24",
+                "net_value": "1.0140"
+            },
+            {
+                "net_time": "2014-11-23",
+                "net_value": "1.0140"
+            },
+            {
+                "net_time": "2014-11-22",
+                "net_value": "1.0140"
+            },
+            {
+                "net_time": "2014-11-21",
+                "net_value": "1.0140"
+            },
+            {
+                "net_time": "2014-11-20",
+                "net_value": "1.0140"
+            },
+            {
+                "net_time": "2014-11-19",
+                "net_value": "1.0150"
+            },
+            {
+                "net_time": "2014-11-18",
+                "net_value": "1.0180"
+            },
+            {
+                "net_time": "2014-11-17",
+                "net_value": "1.0120"
+            },
+            {
+                "net_time": "2014-11-16",
+                "net_value": "1.0090"
+            },
+            {
+                "net_time": "2014-11-15",
+                "net_value": "1.0060"
+            },
+            {
+                "net_time": "2014-11-14",
+                "net_value": "1.0060"
+            },
+            {
+                "net_time": "2014-11-13",
+                "net_value": "1.0060"
+            },
+            {
+                "net_time": "2014-11-12",
+                "net_value": "1.0060"
+            }
+        ],
+        "pagination": {
+            "count": 2,
+            "pageNo": 1,
+            "pageSize": 10
+        }
+    }
+}

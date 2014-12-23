@@ -1,0 +1,63 @@
+{
+    "shop_id": "1",
+    "shop_name": "商户名称1",
+    "photos": {
+        "items": [
+            {
+                "photo_id": "1",
+                "photo_name": "双椒拌鸡丝",
+                "photo_url": "http://sh.sskk.com/uploadpics/201012/tp201012231134165686p.jpg"
+            },
+            {
+                "photo_id": "2",
+                "photo_name": "酒蒸蛤仔",
+                "photo_url": "http://pic.baike.soso.com/p/20140211/20140211112444-1429123385.jpg"
+            },
+            {
+                "photo_id": "3",
+                "photo_name": "干煎带鱼",
+                "photo_url": "http://www.yjrb.com.cn/upload/resources/image/2014/11/15/51312_180x130.jpg"
+            },
+            {
+                "photo_id": "4",
+                "photo_name": "虫草淮杞炖鹧鸪",
+                "photo_url": "http://www.yjrb.com.cn/upload/resources/image/2014/11/15/51312_180x130.jpg"
+            },
+            {
+                "photo_id": "5",
+                "photo_name": "元宝满箱",
+                "photo_url": "http://pic.baike.soso.com/p/20140211/20140211112444-1429123385.jpg"
+            },
+            {
+                "photo_id": "6",
+                "photo_name": "紫薯+苹果夹心奶油蛋糕--简单的裱花",
+                "photo_url": "http://sh.sskk.com/uploadpics/201012/tp201012231134165686p.jpg"
+            },
+            {
+                "photo_id": "7",
+                "photo_name": "干锅淮山",
+                "photo_url": "http://pic.baike.soso.com/p/20140211/20140211112444-1429123385.jpg"
+            },
+            {
+                "photo_id": "8",
+                "photo_name": "呛生菜",
+                "photo_url": "http://www.yjrb.com.cn/upload/resources/image/2014/11/15/51312_180x130.jpg"
+            },
+            {
+                "photo_id": "9",
+                "photo_name": "无油无水脆皮小蛋糕",
+                "photo_url": "http://sh.sskk.com/uploadpics/201012/tp201012231134165686p.jpg"
+            },
+            {
+                "photo_id": "10",
+                "photo_name": "家鸡榛蘑粉",
+                "photo_url": "http://pic.baike.soso.com/p/20140211/20140211112444-1429123385.jpg"
+            }
+        ],
+        "pagination": {
+            "count": 10,
+            "pageNo": 1,
+            "pageSize": 10
+        }
+    }
+}

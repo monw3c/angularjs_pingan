@@ -1,0 +1,22 @@
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="css/wdxq.css" type="text/css" />
+
+<section>
+<div id="wrapper">
+	<div>
+		<!--瀑布流-->
+		<div id="container">
+			<div class="grid" ng-repeat="pic in pics.photos.items" img-list>
+				
+				<div class="imgholder">
+					<img ng-src="{{pic.photo_url}}">
+				</div>
+				<strong>{{pic.photo_name}}</strong>
+				
+			</div>
+			
+		</div>
+		<p class="get-more">加载更多</p>
+	</div>
+</div>
+</section>

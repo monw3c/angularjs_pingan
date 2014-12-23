@@ -1,0 +1,30 @@
+{
+    "funds": [
+        {
+            "fund_id": "1",
+            "fund_name": "工银创新动力股票",
+            "fund_type": "股票型",
+            "net_value": "1.0000",
+            "risk_level": "高风险"
+        },
+        {
+            "fund_id": "2",
+            "fund_name": "红塔红土盛世普益",
+            "fund_type": "混合型",
+            "net_value": "1.0130",
+            "risk_level": "中风险"
+        },
+        {
+            "fund_id": "3",
+            "fund_name": "岁末红利A",
+            "fund_type": "债券型",
+            "net_value": "1.0370",
+            "risk_level": "中低风险"
+        }
+    ],
+    "pagination": {
+        "count": 3,
+        "pageNo": 1,
+        "pageSize": 10
+    }
+}

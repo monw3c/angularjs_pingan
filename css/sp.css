@@ -1,0 +1,238 @@
+.fliter-box{
+	position: fixed;
+    z-index: 999;
+	top: 45px;
+	left: 0;
+    width: 100%;
+	background: #f8f8f8;
+	height: 40px;
+	line-height: 37px;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 0 1%;
+}
+
+.fliter-box b{
+	width: 31%;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	background: #fff url("../images/xiala.png") no-repeat 94% center;
+	background-size: 16px 8px;
+	border-radius: 4px;
+	border: 1px solid #ddd;
+	margin: 4px 2px;
+	font-weight: normal;
+	color: #666;
+	text-indent: 10px;
+	font-size: 14px;
+	position: relative;
+}
+
+.fliter-box b ul{
+	position: absolute;
+	top: 26px;
+	left: -1px;
+	border: 1px solid #ddd;
+	/*border-top: none;*/
+	border-radius: 4px;
+	width: 100%;
+	display: none;
+}
+
+.fliter-box b ul li{
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	height: 36px;
+	line-height: 36px;
+}
+
+.fliter-box b ul li:last-child{
+	border-bottom: none;
+
+}
+
+@media screen and (max-width: 320px){
+    .fliter-box b{width: 31%;}
+
+  }
+@media screen and (min-width: 321px) and (max-width: 480px){
+    .fliter-box b{width: 31.8%;}
+
+  }
+@media screen and (min-width: 481px) and (max-width: 640px){
+	.fliter-box b{width: 32%;}	 
+  }
+@media screen and (min-width: 641px){
+    .fliter-box b{width: 32.2%;}
+
+  }
+@media screen and (min-width: 768px){
+    .fliter-box b{width: 32.7%;}
+
+  }
+@media (device-width:375px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone 6 */
+	.fliter-box b{width: 31%;}
+}
+@media (device-width:411px) and (-webkit-min-device-pixel-ratio:3){/* 兼容iphone 6 */
+	.fliter-box b{width: 31.5%;}
+}
+.foot-geo{
+	position: fixed;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #DDDDDD;
+	font-size: 14px;
+	color: #909090;
+}
+
+.foot-geo .geo{
+	float: left;
+	width: 83%;
+	margin-left: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 36px;
+}
+
+.foot-geo .refresh{
+	float: right;
+	width: 12%;
+	text-align: center;
+}
+
+.foot-geo .refresh img{
+	width: 16px;
+}
+
+.list-box{
+	margin-top: 85px;
+	margin-bottom: 36px;
+}
+
+.list-box li {
+	width: 100%;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 10px 0;
+}
+
+.list-box li dl {
+	margin: 0;
+	width: 100%;
+	height: 80px;
+}
+
+dt.search-key-img {
+	overflow: hidden;
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid #DDDDDD;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+dt.search-key-img img {
+	width: auto;
+	height: 100%;
+}
+    /*标题*/
+dd.search-key-title {
+	width: auto;
+	height: 20px;
+}
+
+dd.search-key-title>p {
+	font-size: 18px;
+	font-weight: bold;
+	color: #1F1F1F;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	overflow: hidden;
+}
+        /*标题右边的标签*/
+div.search-key-title-tag {
+	float: right;
+	margin-top: -30px;
+	margin-right: 10px;
+}
+
+div.search-key-title-tag p {
+	float: left;
+	margin-bottom: 0px;
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+	color: #FFF;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	line-height: 20px;
+	text-align: center;
+}
+
+p.p-sales {
+	background-color: #FFA200
+}
+
+p.p-new {
+	background-color: #EF2B2F
+}
+
+p.p-tuan {
+	background-color: #07A469
+}
+
+    /*说明，简介*/
+dd.search-key-info {
+	width: auto;
+	height: 32px;
+	margin: 6px 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+dd.search-key-info p {
+	font-size: 13px;
+	margin-right: 10px;
+	line-height: 16px;
+	color: #F87352;
+}
+    /*标签*/
+dd.search-key-tag {
+	width: auto;
+	height: 20px;
+}
+
+dd.search-key-tag p {
+	float: left;
+	color: #999;
+	font-size: 13px;
+	margin-right: 10px;
+}
+
+dd.search-key-tag p img {
+	float: left;
+	width: auto;
+	height: 15px;
+	margin-top: 3px;
+	margin-right: 2px;
+}
+
+.get-more{
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	color: #999;
+}

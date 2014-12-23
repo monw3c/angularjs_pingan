@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{{headTitle}}</title>
+<base href="/">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+<meta content="no-cache" http-equiv="pragma">
+<meta content="0" http-equiv="expires">
+<meta content="telephone=no, address=no" name="format-detection">
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/> 
+<link rel="stylesheet" href="css/base.css" type="text/css" />
+</head>
+
+<body>
+    <div class="header">
+        <a href back-button class="btn-back" ng-show="backBol"><span> </span></a>
+      <h2 class="title"><span ng-bind="title"></span></h2>
+      <fav-btn></fav-btn>
+    </div>
+
+    <div ng-view></div>
+
+    <loading></loading>
+
+
+<script data-main="js/main" src="js/libs/require.js"></script>
+
+</body>
+</html>
+

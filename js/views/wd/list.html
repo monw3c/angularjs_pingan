@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="css/yywd.css" type="text/css" />
+<div class="search-box">
+      <b class="dw"><img src="images/dingwei.png"></b>
+      <input type="search" class="search-input" placeholder="输入网点地址或名称">
+      <button class="btn">搜索</button>
+    </div>
+    <div class="list-box" >
+       <ul>
+        <li ng-repeat="branch in branchs">
+          <a href="#/wdxq">
+           <dl>
+            <dt class="search-key-img">
+              <img ng-src="{{branch.branch_logo}}">
+            </dt> 
+            <dd class="search-key-title">
+               <p>{{branch.branch_name}}</p>
+              </dd>
+              <dd class="search-key-info">
+               <p>{{branch.branch_type}}</p>
+              </dd>
+              <dd class="search-key-tag">
+                <p>{{branch.branch_addr}}</p>
+              </dd>
+            </dl>
+          </a>
+        </li>
+       </ul>
+        <p class="get-more" ng-click="getMore()">加载更多</p>
+    </div>
+
+    <div geo refresh="refreshGeo()"></div>

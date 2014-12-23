@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="css/shxq.css" type="text/css" />
+<div class="cont">
+	<ul class="list-box">
+		<li>
+		<dl>
+			<dt class="search-key-img">
+			<a href="#/listimg">
+				<img ng-src="{{xq.shop_logo}}">
+			<p id="sp-photo">{{xq.photo_count}}张</p></a>
+			</dt>
+			<dd class="search-key-title">
+			<p id="sp-name">{{xq.shop_name}}</p>
+			</dd>
+			<dd class="search-key-info">
+			<p class="xx">
+				<i></i><i></i><i></i>
+			</p>
+			</dd>
+			<dd class="search-key-tag">
+			<p class='wd-data'>
+				<p id="sp-view"><img src="images/cz.png">{{xq.view_count}}</p>
+				<p id="sp-favorite"><img src="images/love.png">{{xq.favorite_count}}</p>
+				<p id="sp-capita"><img src="images/rj.png">{{xq.capita_consumption}}</p>
+			</p>
+			</dd>
+		</dl>
+		</li>
+		<li>
+			<img src="images/dingwei.png" class="one-con-left-img">
+			<img src="images/xiala.png" class="one-con-right-img">
+			<p class="one-con" id="sp-adr">{{xq.shop_adr}}</p>
+		</li>
+		<li>
+			<img src="images/tel.png" class="one-con-left-img" style="width:15px;height:15px;">
+			<img src="images/xiala.png" class="one-con-right-img">
+			<p class="one-con tel" id="sp-tel" ng-if="xq.shop_tel.split(',').length == 1"><a ng-href="tel:{{xq.shop_tel}}">{{xq.shop_tel}}</a></p>
+			<p class="one-con tel" id="sp-tel" ng-click="toggleShow()" ng-if="xq.shop_tel.split(',').length != 1">{{xq.shop_tel}}</p>
+			
+		</li>
+	</ul>
+	<ul class="list-box">
+		<li>
+		<p class="list-title">
+			店铺优惠
+		</p>
+		</li>
+		<li>
+		</li>
+		<li>
+		<p class="yxq">有效期:2015年01月11日</p>
+		</li>
+	</ul>
+	<ul class="list-box">
+		<li>
+		<p class="list-title">
+			店铺信息
+		</p>
+		</li>
+		<li>
+		<div id="sp-remark" ng-bind-html="myHTML"></div>
+		</li>
+	</ul>
+</div>
+
+<!-- 电话box -->
+<tel-box show="boxShow"></tel-box>

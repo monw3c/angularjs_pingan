@@ -1,0 +1,41 @@
+﻿{
+    "branchs": [
+        {
+            "branch_id": "1",
+            "branch_type": "社区支行",
+            "branch_name": "平安银行广州奥林匹克花园社区支行",
+            "branch_logo": "http://pic.baike.soso.com/p/20140211/20140211112444-1429123385.jpg",
+            "branch_tel": "020-38889807,020-38889808",
+            "branch_addr": "广州市番禺区桥南街市良路9号番禺奥林匹克花园运动城21号商铺"
+        },
+        {
+            "branch_id": "2",
+            "branch_type": "社区支行",
+            "branch_name": "平安银行广州东山一品社区支行",
+            "branch_logo": "http://pic.baike.soso.com/p/20140211/20140211112444-1429123385.jpg",
+            "branch_tel": "020-38889807,020-38889808",
+            "branch_addr": "广州市越秀区水荫路49号116房"
+        },
+        {
+            "branch_id": "3",
+            "branch_type": "小微支行",
+            "branch_name": "平安银行广州新塘牛仔城小微支行",
+            "branch_logo": "http://pic.baike.soso.com/p/20140211/20140211112444-1429123385.jpg",
+            "branch_tel": "020-38889807,020-38889808",
+            "branch_addr": "广州市增城新塘镇新南大道东82号28幢393号首层"
+        },
+        {
+            "branch_id": "4",
+            "branch_type": "小微支行",
+            "branch_name": "平安银行广州步云天地小微支行",
+            "branch_logo": "http://pic.baike.soso.com/p/20140211/20140211112444-1429123385.jpg",
+            "branch_tel": "020-38889807,020-38889808",
+            "branch_addr": "广州市荔湾区站西路26号D217、D218、D219商铺"
+        }
+    ],
+    "pagination": {
+        "count": 4,
+        "pageNo": 1,
+        "pageSize": 10
+    }
+}

@@ -1,0 +1,100 @@
+﻿{
+    "areas": [
+        {
+            "area_id": "1",
+            "area_name": "天河区"
+        },
+        {
+            "area_id": "2",
+            "area_name": "越秀区"
+        },
+        {
+            "area_id": "3",
+            "area_name": "荔湾区"
+        },
+        {
+            "area_id": "4",
+            "area_name": "白云区"
+        },
+        {
+            "area_id": "5",
+            "area_name": "番禺区"
+        },
+        {
+            "area_id": "6",
+            "area_name": "海珠区"
+        }
+    ],
+    "types": [
+        {
+            "type_id": "1",
+            "type_icon": "http://img.sc115.com/uploads/png/110125/201101251528352943.png",
+            "type_name": "美食"
+        },
+        {
+            "type_id": "2",
+            "type_icon": "http://img1.imgtn.bdimg.com/it/u=3825328250,1425350853&fm=21&gp=0.jpg",
+            "type_name": "电影"
+        },
+        {
+            "type_id": "3",
+            "type_icon": "http://img.web07.cn/uploads/Png/c101210/129194393P-21R7.png",
+            "type_name": "购物"
+        },
+        {
+            "type_id": "4",
+            "type_icon": "http://img0.imgtn.bdimg.com/it/u=622517855,143728393&fm=21&gp=0.jpg",
+            "type_name": "加油"
+        },
+        {
+            "type_id": "5",
+            "type_icon": "http://img5.imgtn.bdimg.com/it/u=3731241815,802416046&fm=15&gp=0.jpg",
+            "type_name": "其他"
+        }
+    ],
+    "orders": [
+        {
+            "order_id": "1",
+            "order_name": "人气最高"
+        },
+        {
+            "order_id": "2",
+            "order_name": "收藏最多"
+        },
+        {
+            "order_id": "3",
+            "order_name": "人均最低"
+        },
+        {
+            "order_id": "4",
+            "order_name": "人均最高"
+        }
+    ],
+    "shops": [
+        {
+            "shop_id": "1",
+            "shop_name": "商户名称1",
+            "shop_type": "美食",
+            "shop_logo": "http://sh.sskk.com/uploadpics/201012/tp201012231134165686p.jpg",
+            "shop_preferential": "优惠说明：使用平安信用卡全场8折优惠",
+            "view_count": "125",
+            "favorite_count": "36",
+            "capita_consumption": "45"
+        },
+        {
+            "shop_id": "2",
+            "shop_name": "商户名称2",
+            "shop_type": "电影",
+            "shop_logo": "http://sh.sskk.com/uploadpics/201012/tp201012231134165686p.jpg",
+            "shop_preferential": "优惠说明：使用平安信用卡全场8折优惠",
+            "view_count": "1256",
+            "favorite_count": "698",
+            "capita_consumption": ""
+        }
+    ],
+    "pagination": {
+        "count": 2,
+        "pageNo": 1,
+        "pageSize": 10
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "financial_id": "1", 
+    "financial_name": "平安财富-私行专享日添利现金管理类人民币理财产品 ALR130002", 
+    "financial_icon": "", 
+    "subscribe_min": "50000.00", 
+    "expected_profit": "3.4675", 
+    "alloted_time": "1447", 
+    "currency_type": "人民币", 
+    "risk_level": "二级（中低）", 
+    "sales_time": "2014.11.26 - 2014.12.02", 
+    "interest_time": "2014.12.03 - 2015.01.05", 
+    "subscribe_max": "9999999999.00", 
+    "increase_amount": "10000.00", 
+    "financial_type": "保本", 
+    "profit_remark": "预期收益率 0.5%~5.5%（年化）", 
+    "remain_amount": "> 500万", 
+    "financial_remark": "http://m.baidu.com"
+}

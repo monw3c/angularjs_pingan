@@ -1,0 +1,79 @@
+<link rel="stylesheet" href="css/wdxq.css" type="text/css" />
+<div class="cont">
+	<ul class="list-box">
+		<li>
+		<dl>
+			<dt class="search-key-img">
+			<img ng-src="{{xq.branch_logo}}">
+			</dt>
+			<dd class="search-key-title">
+			<p id="wd-name">{{xq.branch_name}}</p>
+			</dd>
+			<dd class="search-key-info">
+			<p class="xx">
+				<i></i><i></i><i></i>
+			</p>
+			</dd>
+			<dd class="search-key-tag">
+			<p class='wd-data' id="wd-tpye">{{xq.branch_type}}</p>
+			</dd>
+		</dl>
+		</li>
+		<li>
+		<img src="images/dingwei.png" class="one-con-left-img">
+		<img src="images/xiala.png" class="one-con-right-img">
+		<p class="one-con" id="wd-adr">{{xq.branch_adr}}</p>
+		</li>
+		<li>
+		<img src="images/tel.png" class="one-con-left-img" style="width:15px;height:15px;">
+		<img src="images/xiala.png" class="one-con-right-img">
+		<p class="one-con tel" id="wd-tel" ng-click="toggleShow()">{{xq.branch_tel}}</p>
+		</li>
+	</ul>
+	
+	<ul class="list-box">
+		<li>
+		<p class="list-title">
+			网点信息
+		</p>
+		</li>
+		<li>
+		<div id="wd-remark" ng-bind-html="myHTML"></div>
+		</li>
+	</ul>
+
+	<ul class="list-box" id="wd-list">
+		<li>
+		<p class="list-title">
+			附近优惠
+		</p>
+		</li>
+		<li ng-repeat="item in xq.shops.items">
+			<a href="#/shxq">
+			<dl>
+				<dt class="search-key-img">
+					<img ng-src="{{item.shop_logo}}">
+				</dt>
+				<dd class="search-key-title"><span class="list-title">{{item.shop_name}}</span><span class="list-right">{{item.shop_type}}</span></dd><dd class="search-key-info">
+				<p class="list-cont">
+					{{item.shop_preferential}}
+				</p>
+				</dd><dd class="search-key-tag">
+				<p>
+					<img src="images/cz.png">{{item.view_count}}
+				</p>
+				<p>
+					<img src="images/love.png">{{item.favorite_count}}
+				</p>
+				<p>
+					<img src="images/rj.png">{{item.capita_consumption}}元/人
+				</p>
+				</dd>
+			</dl>
+			</a>
+		</li>
+	</ul>
+</div>
+
+<!-- 电话box -->
+<tel-box show="boxShow"></tel-box>

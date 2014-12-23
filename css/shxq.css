@@ -1,0 +1,254 @@
+.cont {
+	margin-top: 45px;
+	background-color: #DDD;
+}
+/*网店信息*/
+.list-box{
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+.list-box li {
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 10px 0;
+}
+.list-box li dl {
+	margin: 0;
+	width: 100%;
+	height: 80px;
+}
+
+/*网店图片*/
+dt.search-key-img {
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid #DDDDDD;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+dt.search-key-img img {
+	width: auto;
+	height: 100%;
+}
+dt.search-key-img>a>p{
+	position: absolute;
+	top: 60px;
+	width: 78px;
+	height: 20px;
+	text-align: right;
+	background-color: #000;
+	color: #ddd;
+	font-size: 12px;
+	opacity: .8;
+}
+
+.list-box>li>h1 {
+	font-size: 15px;
+	margin-left: 12px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	color: #777;
+}
+.list-box>li>p.yxq {
+	font-size: 13px;
+	color: #FF4040;
+	margin-left: 15px;
+}
+
+/*标题*/
+dd.search-key-title {
+	width: auto;
+	height: 24px;
+}
+dd > p {
+	font-size: 13px;
+	color: #aaa;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	overflow: hidden;
+}
+dd.search-key-title>p {
+	font-size: 18px;
+	font-weight: bold;
+	color: #1F1F1F;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+/*标题右边的标签*/
+div.search-key-title-tag {
+	float: right;
+	margin-top: -30px;
+	margin-right: 10px;
+}
+div.search-key-title-tag p {
+	float: left;
+	margin-bottom: 0px;
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+	color: #FFF;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	line-height: 20px;
+	text-align: center;
+}
+
+/*说明，简介*/
+dd.search-key-info {
+	width: auto;
+	height: 24px;
+	margin: 5px 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+dd.search-key-info p, dd.search-key-tag p{
+	font-size: 14px;
+	margin-right: 10px;
+	line-height: 24px;
+	color: #999;
+}
+
+/*标签*/
+dd.search-key-tag {
+	width: auto;
+	height: 24px;
+}
+.get-more{
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	color: #999;
+}
+
+/*单个信息*/
+li>.one-con-left-img {
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	width: 14px;
+	height: 18px;
+	margin-top: -10px;
+}
+li>.one-con-right-img {
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	width: 17px;
+	height: 9px;
+	margin-top: -5px;
+}
+li>.one-con {
+	margin: auto 38px;
+}
+
+/*优惠－list*/
+p.list-title {
+	font-size: 15px;
+	margin-left: 12px;
+}
+
+span.list-title {
+	width: 45%;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+span.list-cont {
+	width: 60%;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 14px;
+	margin-right: 10px;
+	line-height: 24px;
+	color: #999;
+}
+span.list-right {
+	float: right;
+	font-size: 14px;
+	margin-right: 10px;
+	line-height: 24px;
+	color: #999;
+}
+
+/*弹出框*/
+.back-bl {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	opacity: 0.7;
+	background-color: #000;
+}
+.t-frame {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -140px;
+	width: 280px;
+	height: 200px;
+	background-color: #fff;
+	border-radius: 5px;
+	z-index: 1001;
+	
+}
+.t-frame>li>p {
+	text-align: center;
+	padding: 15px;
+	border-bottom: 1px solid #DDD;
+}
+li.num>p {
+	text-align: left;
+}
+li.num>p>img{
+	float: right;
+	width: 20px;
+	height: 20px;
+}
+
+.list-price{
+	color: #F87352;
+	font-size: 14px;
+}
+
+/*评分－星星*/
+.xx>i {
+	width: 20px;
+	height: 20px;
+	background: url(../images/iconfont-xingxing.png) no-repeat 0 0;
+	background-size: 20px 20px;
+	display: inline-block;
+}
+
+dd.search-key-tag p {
+	float: left;
+	color: #999;
+	font-size: 13px;
+	margin-right: 10px;
+}
+dd.search-key-tag p img {
+	float: left;
+	width: auto;
+	height: 15px;
+	margin-top: 3px;
+	margin-right: 2px;
+}
+

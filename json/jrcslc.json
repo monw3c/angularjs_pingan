@@ -1,0 +1,63 @@
+{
+    "financials": [
+        {
+            "financial_id": "1",
+            "financial_name": "平安财富-私行专享日添利现金管理类人民币理财产品 ALR130002",
+            "financial_icon": "",
+            "subscribe": "50万元",
+            "profit": [
+                {
+                    "key": "预期年华收益率(%)",
+                    "value": "3.4675"
+                 }
+             ],
+            "alloted": [
+                {
+                    "key": "建议持有期限(天)",
+                    "value": "1447"
+                 }
+             ]
+        },
+        {
+            "financial_id": "2",
+            "financial_name": "平安财富-日添利现金管理类人民币理财产品",
+            "financial_icon": "",
+            "subscribe": "5万元",
+            "profit": [
+                {
+                    "key": "预期年华收益率(%)",
+                    "value": "3.0660"
+                 }
+             ],
+            "alloted": [
+                {
+                    "key": "建议持有期限(天)",
+                    "value": "2922"
+                 }
+             ]
+        },
+        {
+            "financial_id": "3",
+            "financial_name": "平安财富-双周利（保本滚动）现金管理类2012年2期人民币理财产品SZL2",
+            "financial_icon": "",
+            "subscribe": "5万元",
+            "profit": [
+                {
+                    "key": "预期年华收益率(%)",
+                    "value": "3.8000"
+                 }
+             ],
+            "alloted": [
+                {
+                    "key": "建议持有期限(天)",
+                    "value": "14"
+                 }
+             ]
+        }
+    ],
+    "pagination": {
+        "count": 3,
+        "pageNo": 1,
+        "pageSize": 10
+    }
+}

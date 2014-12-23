@@ -1,0 +1,11 @@
+<div class="back-layer-tel" ng-show='show' ng-click='hideModal()' tels="tels">
+	<div class="telBox">
+       <h4>
+       <img src="images/tel.png" style="width:15px;height:15px;margin-right:3px">拨打电话</h4>
+       <ul>
+       	<li ng-repeat="tel in tels">
+       		<a ng-href="tel:{{tel}}">{{tel}}</a>
+       	</li>
+       </ul>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="css/sp.css" type="text/css" />
+<div class="fliter-box">
+      <b><span>全部</span>
+        <ul class="menu city" fliter-box>
+          <li ng-repeat="area in areas">{{area.area_name}}</li>
+        </ul>
+      </b>
+      <b><span>商铺</span>
+        <ul class="menu type" fliter-box>
+          <li ng-repeat="type in types">{{type.type_name}}</li>
+        </ul>
+      </b>
+      <b><span>人气最高</span>
+        <ul class="menu pj" fliter-box>
+          <li ng-repeat="order in orders">{{order.order_name}}</li>
+        </ul>
+      </b>
+    </div>
+    <div class="list-box">
+       <ul>
+        <li ng-repeat="shop in shops">
+          <a href="#/shxq">
+           <dl>
+            <dt class="search-key-img">
+              <img ng-src="{{shop.shop_logo}}">
+            </dt> 
+            <dd class="search-key-title">
+               <p>{{shop.shop_name}}</p>
+              </dd>
+              <dd class="search-key-info">
+               <p>{{shop.shop_preferential}}</p>
+              </dd>
+              <dd class="search-key-tag">
+                <p><img src="images/cz.png">{{shop.view_count}}</p><p><img src="images/love.png">{{shop.favorite_count}}</p><p><img src="images/rj.png">{{shop.capita_consumption}}元/人</p>
+              </dd>
+            </dl>
+          </a>
+        </li>
+       </ul>
+       <p class="get-more" ng-click="getMore()">加载更多</p>
+    </div>
+
+    <div geo refresh="refreshGeo()"></div>

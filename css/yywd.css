@@ -1,0 +1,175 @@
+.search-box{
+	position: fixed;
+    z-index: 999;
+	top: 45px;
+	left: 0;
+    width: 100%;
+    height: 36px;
+	background: #f8f8f8;
+	height: 40px;
+	line-height: 37px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.search-box input{
+	margin: 0;
+	width: 65%;
+	margin-right: 2%;
+}
+
+.search-box .dw{
+	width: 12%;
+	display: inline-block;
+	text-align: center;
+}
+.search-box .dw img{
+	width: 15px;
+}
+
+.search-box .btn{
+	width: 15%;
+}
+
+.foot-geo{
+	position: fixed;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #DDDDDD;
+	font-size: 14px;
+	color: #909090;
+}
+
+.foot-geo .geo{
+	float: left;
+	width: 83%;
+	margin-left: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 36px;
+}
+
+.foot-geo .refresh{
+	float: right;
+	width: 12%;
+	text-align: center;
+}
+
+.foot-geo .refresh img{
+	width: 16px;
+}
+
+.list-box{
+	margin-top: 85px;
+	margin-bottom: 36px;
+}
+
+.list-box li {
+	width: 100%;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 10px 0;
+}
+
+.list-box li dl {
+	margin: 0;
+	width: 100%;
+	height: 80px;
+}
+
+dt.search-key-img {
+	overflow: hidden;
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid #DDDDDD;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+dt.search-key-img img {
+	width: auto;
+	height: 100%;
+}
+    /*标题*/
+dd.search-key-title {
+	width: auto;
+	height: 24px;
+}
+
+dd > p {
+	font-size: 13px;
+	color: #aaa;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+dd.search-key-title>p {
+	font-size: 18px;
+	font-weight: bold;
+	color: #1F1F1F;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	overflow: hidden;
+}
+        /*标题右边的标签*/
+div.search-key-title-tag {
+	float: right;
+	margin-top: -30px;
+	margin-right: 10px;
+}
+
+div.search-key-title-tag p {
+	float: left;
+	margin-bottom: 0px;
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+	color: #FFF;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	line-height: 20px;
+	text-align: center;
+}
+
+    /*说明，简介*/
+dd.search-key-info {
+	width: auto;
+	height: 24px;
+	margin: 5px 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+dd.search-key-info p, dd.search-key-tag p{
+	font-size: 14px;
+	margin-right: 10px;
+	line-height: 24px;
+	color: #999;
+}
+    /*标签*/
+dd.search-key-tag {
+	width: auto;
+	height: 24px;
+}
+
+.get-more{
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	color: #999;
+}
+ 
