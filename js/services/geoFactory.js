@@ -19,9 +19,9 @@ define(['jquery','app'], function ($,app) {
                       lat = pc.latitude,
                       lng = pc.longitude;
 
-                  $http.jsonp('http://api.map.baidu.com/geoconv/v1/?coords='+lng+','+lat+'&from=1&to=5&ak=A226e59f9ee3bbbe0fcc35878b45787b&callback=angular.callbacks._0').success(
+                  $http.jsonp('http://api.map.baidu.com/geoconv/v1/?coords='+lng+','+lat+'&from=1&to=5&ak=A226e59f9ee3bbbe0fcc35878b45787b&callback=JSON_CALLBACK').success(
                        function(data){
-                           $http.jsonp('http://api.map.baidu.com/geocoder/v2/?ak=A226e59f9ee3bbbe0fcc35878b45787b&callback=?&location='+data.result[0].y+','+data.result[0].x+'&output=json&pois=0&callback=angular.callbacks._1').success(function(result) {
+                           $http.jsonp('http://api.map.baidu.com/geocoder/v2/?ak=A226e59f9ee3bbbe0fcc35878b45787b&callback=?&location='+data.result[0].y+','+data.result[0].x+'&output=json&pois=0&callback=JSON_CALLBACK').success(function(result) {
                                   def.resolve(result);
                              })
                        }     
