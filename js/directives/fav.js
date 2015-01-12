@@ -7,7 +7,7 @@ define(['jquery','app'], function ($,app) {
 			restrict: 'AE',
 			replace: true,
             //transclude: true,
-            template: '<a href="javascript:void(0)" class="btn-fav" ng-click="favToggle" ng-show="favBol"><span></span></a>',
+            template: '<a href="javascript:void(0)" class="btn-fav" ng-show="favBol"><span></span></a>',
 			/*scope: {
 		      show: '='
 		    },*/
