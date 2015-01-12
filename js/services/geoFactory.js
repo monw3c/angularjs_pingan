@@ -6,7 +6,7 @@ define(['jquery','app'], function ($,app) {
 
     app.factory('geoFactory', ['$http','$q', function($http,$q) {
        
-       function getGeo(cb){
+       function getGeo(){
 
                 var def = $q.defer();
 
