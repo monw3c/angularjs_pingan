@@ -6,4 +6,10 @@
 2014-12-23 
 三块内容：
  营业网点，商户，金融超市
- 
+
+
+您的鼓励是我持续开源的动力：）
+================
+
+
+![捐赠二维码](https://github.com/monw3c/angularjs_pingan/blob/master/images/3.pic.jpg)
